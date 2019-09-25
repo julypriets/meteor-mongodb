@@ -20,6 +20,13 @@ class WeekForecast extends Component {
   render() {
     return (
       <div className="container-fluid">
+        <h2>Week 1</h2>
+        <div className="card-deck">{this.renderDays()}</div>
+        <h2>Week 2</h2>
+        <div className="card-deck">{this.renderDays()}</div>
+        <h2>Week 3</h2>
+        <div className="card-deck">{this.renderDays()}</div>
+        <h2>Week 4</h2>
         <div className="card-deck">{this.renderDays()}</div>
       </div>
     );
